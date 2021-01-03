@@ -1,0 +1,4 @@
+services:
+  genius:
+    url: https://api.genius.com/
+    timeout: PT3S
