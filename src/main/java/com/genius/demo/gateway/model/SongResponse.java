@@ -34,17 +34,6 @@ public class SongResponse {
 
             private String fullTitle;
             private String title;
-            private PrimaryArtist primaryArtist;
-
-            @Data
-            @Builder
-            @NoArgsConstructor
-            @AllArgsConstructor
-            public static class PrimaryArtist {
-
-                private String id;
-                private String name;
-            }
         }
     }
 }

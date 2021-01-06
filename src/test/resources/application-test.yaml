@@ -1,4 +1,4 @@
 services:
   genius:
     url: https://api.genius.com/
-    timeout: PT10S
+    timeout: PT5S

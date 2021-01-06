@@ -1,0 +1,98 @@
+openapi: 3.0.3
+info:
+  title: Song Service
+  description: This service provides Songs by artists.
+  contact:
+    name: Akash Rastogi
+    email: akash.rastogi17@gmail.com
+  x-audience: internal
+  version: "1.0.0"
+
+externalDocs:
+  description: "Github Repository"
+  url: https://github.com/akashAlgo/genius-discography
+
+servers:
+  - url: http://localhost:8080
+
+tags:
+  - name: song-controller
+    description: API endpoint to provide Songs of the given artist
+
+paths:
+  /songs:
+    get:
+      tags:
+        - song-controller
+      summary: List of Songs by the searched artist. Use exact match param to match the artist name exactly, and not include collabs.
+      parameters:
+        - name: artist_name
+          in: query
+          required: true
+          schema:
+            type: string
+            example: Diplo
+        - name: Authorization
+          in: query
+          required: true
+          schema:
+            type: string
+            example: Bearer token
+            description: Provide a valid genius token here in the Bearer format
+        - name: exact_match
+          in: query
+          required: false
+          schema:
+            default: false
+            type: boolean
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: number
+            format: int32
+            example: 20
+            default: 20
+            description: These paging limits are dependent on genius supported limits
+        - name: page
+          in: query
+          required: false
+          schema:
+            type: number
+            format: int32
+            example: 1
+            default: 1
+            description: Pages beyond limit return empty data.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Songs'
+        "404":
+          description: Not Found
+
+components:
+  securitySchemes:
+    cust_auth:
+      type: oauth2
+      description: |
+        All end points of the service require this token.
+      flows:
+        clientCredentials:
+          tokenUrl: https://localhost:8090/oauth2/token
+          scopes:
+            account-admin.read: Grants read access
+
+  schemas:
+    Songs:
+      type: array
+      items:
+        type: string
+        description: Title of the song
+        example:
+          - Alone
+          - Proud
+          - Happier
+

@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "status": 200
+  },
+  "response": {
+    "hits": [
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 10,
+          "api_path": "/songs/3348299",
+          "full_title": "FRIENDS by Marshmello & Anne-Marie",
+          "header_image_thumbnail_url": "https://images.genius.com/d08006636ec0278c2d7b820c646e5a13.300x300x1.jpg",
+          "header_image_url": "https://images.genius.com/d08006636ec0278c2d7b820c646e5a13.1000x1000x1.jpg",
+          "id": 3348299,
+          "lyrics_owner_id": 4714464,
+          "lyrics_state": "complete",
+          "path": "/Marshmello-and-anne-marie-friends-lyrics",
+          "pyongs_count": 205,
+          "song_art_image_thumbnail_url": "https://images.genius.com/06c3f5bab28bd01ba01a8cb9f851f653.300x300x1.png",
+          "song_art_image_url": "https://images.genius.com/06c3f5bab28bd01ba01a8cb9f851f653.1000x1000x1.png",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "concurrents": 2,
+            "hot": false,
+            "pageviews": 5440191
+          },
+          "title": "FRIENDS",
+          "title_with_featured": "FRIENDS",
+          "url": "https://genius.com/Marshmello-and-anne-marie-friends-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/1402544",
+            "header_image_url": "https://images.genius.com/6d56f5f79dc4bb7cddc2235d0380940e.223x226x1.jpg",
+            "id": 1402544,
+            "image_url": "https://images.genius.com/da4ba26cb044e59af7be1a41bdcfe9ce.800x800x1.jpg",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Marshmello & Anne-Marie",
+            "url": "https://genius.com/artists/Marshmello-and-anne-marie"
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 1,
+          "api_path": "/songs/3792450",
+          "full_title": "Happier by Marshmello & Bastille",
+          "header_image_thumbnail_url": "https://images.genius.com/4ff9277eed36fb6f90372654b6c9d818.300x300x1.png",
+          "header_image_url": "https://images.genius.com/4ff9277eed36fb6f90372654b6c9d818.1000x1000x1.png",
+          "id": 3792450,
+          "lyrics_owner_id": 3489629,
+          "lyrics_state": "complete",
+          "path": "/Marshmello-and-bastille-happier-lyrics",
+          "pyongs_count": 335,
+          "song_art_image_thumbnail_url": "https://images.genius.com/4ff9277eed36fb6f90372654b6c9d818.300x300x1.png",
+          "song_art_image_url": "https://images.genius.com/4ff9277eed36fb6f90372654b6c9d818.1000x1000x1.png",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "concurrents": 2,
+            "hot": false,
+            "pageviews": 3019656
+          },
+          "title": "Happier",
+          "title_with_featured": "Happier",
+          "url": "https://genius.com/Marshmello-and-bastille-happier-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/1611833",
+            "header_image_url": "https://images.genius.com/bb12b98210af8e4869e301950863148c.584x584x1.jpg",
+            "id": 1611833,
+            "image_url": "https://images.genius.com/bb12b98210af8e4869e301950863148c.584x584x1.jpg",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Marshmello & Bastille",
+            "url": "https://genius.com/artists/Marshmello-and-bastille"
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 4,
+          "api_path": "/songs/3188009",
+          "full_title": "Silence by Marshmello (Ft. Khalid)",
+          "header_image_thumbnail_url": "https://images.genius.com/eda133d0e85c38ac75a5bf0f12e19191.300x300x1.jpg",
+          "header_image_url": "https://images.genius.com/eda133d0e85c38ac75a5bf0f12e19191.1000x1000x1.jpg",
+          "id": 3188009,
+          "lyrics_owner_id": 93685,
+          "lyrics_state": "complete",
+          "path": "/Marshmello-silence-lyrics",
+          "pyongs_count": 105,
+          "song_art_image_thumbnail_url": "https://images.genius.com/eda133d0e85c38ac75a5bf0f12e19191.300x300x1.jpg",
+          "song_art_image_url": "https://images.genius.com/eda133d0e85c38ac75a5bf0f12e19191.1000x1000x1.jpg",
+          "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 1554668
+          },
+          "title": "Silence",
+          "title_with_featured": "Silence (Ft. Khalid)",
+          "url": "https://genius.com/Marshmello-silence-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/582361",
+            "header_image_url": "https://images.genius.com/2b3c4e48b5f77f1708282ac17d3ce6db.1000x661x1.jpg",
+            "id": 582361,
+            "image_url": "https://images.genius.com/e633617582174697e2722b88460d0fca.1000x1000x1.jpg",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "Marshmello",
+            "url": "https://genius.com/artists/Marshmello",
+            "iq": 175
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 6,
+          "api_path": "/songs/3280764",
+          "full_title": "Wolves by Selena Gomez & Marshmello",
+          "header_image_thumbnail_url": "https://images.genius.com/0445f5d40ee9dfcab77e0f106b855114.300x300x1.png",
+          "header_image_url": "https://images.genius.com/0445f5d40ee9dfcab77e0f106b855114.1000x1000x1.png",
+          "id": 3280764,
+          "lyrics_owner_id": 93685,
+          "lyrics_state": "complete",
+          "path": "/Selena-gomez-and-marshmello-wolves-lyrics",
+          "pyongs_count": 64,
+          "song_art_image_thumbnail_url": "https://images.genius.com/0445f5d40ee9dfcab77e0f106b855114.300x300x1.png",
+          "song_art_image_url": "https://images.genius.com/0445f5d40ee9dfcab77e0f106b855114.1000x1000x1.png",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 1353462
+          },
+          "title": "Wolves",
+          "title_with_featured": "Wolves",
+          "url": "https://genius.com/Selena-gomez-and-marshmello-wolves-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/1235500",
+            "header_image_url": "https://images.genius.com/e304431c87ef39b17e5e4cad0a8f5e42.1000x666x1.jpg",
+            "id": 1235500,
+            "image_url": "https://images.genius.com/78a50c353ba37dcfabef37ec1a48c48d.965x965x1.jpg",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Selena Gomez & Marshmello",
+            "url": "https://genius.com/artists/Selena-gomez-and-marshmello"
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 2,
+          "api_path": "/songs/2472272",
+          "full_title": "Alone by Marshmello",
+          "header_image_thumbnail_url": "https://images.genius.com/c0d39761525651fdc185cd2cdce4e63f.300x300x1.jpg",
+          "header_image_url": "https://images.genius.com/c0d39761525651fdc185cd2cdce4e63f.1000x1000x1.jpg",
+          "id": 2472272,
+          "lyrics_owner_id": 93685,
+          "lyrics_state": "complete",
+          "path": "/Marshmello-alone-lyrics",
+          "pyongs_count": 34,
+          "song_art_image_thumbnail_url": "https://images.genius.com/c0d39761525651fdc185cd2cdce4e63f.300x300x1.jpg",
+          "song_art_image_url": "https://images.genius.com/c0d39761525651fdc185cd2cdce4e63f.1000x1000x1.jpg",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 808880
+          },
+          "title": "Alone",
+          "title_with_featured": "Alone",
+          "url": "https://genius.com/Marshmello-alone-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/582361",
+            "header_image_url": "https://images.genius.com/2b3c4e48b5f77f1708282ac17d3ce6db.1000x661x1.jpg",
+            "id": 582361,
+            "image_url": "https://images.genius.com/e633617582174697e2722b88460d0fca.1000x1000x1.jpg",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "Marshmello",
+            "url": "https://genius.com/artists/Marshmello",
+            "iq": 175
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 2,
+          "api_path": "/songs/3384913",
+          "full_title": "Spotlight by Marshmello & Lil Peep",
+          "header_image_thumbnail_url": "https://images.genius.com/54ce724ea2b85fb71dbfd7ed3a032c61.300x300x1.png",
+          "header_image_url": "https://images.genius.com/54ce724ea2b85fb71dbfd7ed3a032c61.1000x1000x1.png",
+          "id": 3384913,
+          "lyrics_owner_id": 1710294,
+          "lyrics_state": "complete",
+          "path": "/Marshmello-and-lil-peep-spotlight-lyrics",
+          "pyongs_count": 175,
+          "song_art_image_thumbnail_url": "https://images.genius.com/54ce724ea2b85fb71dbfd7ed3a032c61.300x300x1.png",
+          "song_art_image_url": "https://images.genius.com/54ce724ea2b85fb71dbfd7ed3a032c61.1000x1000x1.png",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 806531
+          },
+          "title": "Spotlight",
+          "title_with_featured": "Spotlight",
+          "url": "https://genius.com/Marshmello-and-lil-peep-spotlight-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/1293217",
+            "header_image_url": "https://images.genius.com/9a4adce0dd0f722b7dbdfa831c74f5b6.1000x429x1.jpg",
+            "id": 1293217,
+            "image_url": "https://images.genius.com/485ebed2c9ead1f61d4fca0092317b6d.530x530x1.jpg",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Marshmello & Lil Peep",
+            "url": "https://genius.com/artists/Marshmello-and-lil-peep"
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 5,
+          "api_path": "/songs/4130757",
+          "full_title": "Come & Go by Juice WRLD & Marshmello",
+          "header_image_thumbnail_url": "https://images.genius.com/7e93b637e287b74e5358127069564b22.300x300x1.jpg",
+          "header_image_url": "https://images.genius.com/7e93b637e287b74e5358127069564b22.1000x1000x1.jpg",
+          "id": 4130757,
+          "lyrics_owner_id": 6613422,
+          "lyrics_state": "complete",
+          "path": "/Juice-wrld-and-marshmello-come-and-go-lyrics",
+          "pyongs_count": 55,
+          "song_art_image_thumbnail_url": "https://images.genius.com/5454b4bd13b7f65f97b8f4f1f5ddda9a.300x300x1.png",
+          "song_art_image_url": "https://images.genius.com/5454b4bd13b7f65f97b8f4f1f5ddda9a.1000x1000x1.png",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 762369
+          },
+          "title": "Come & Go",
+          "title_with_featured": "Come & Go",
+          "url": "https://genius.com/Juice-wrld-and-marshmello-come-and-go-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/2314163",
+            "header_image_url": "https://images.genius.com/8b7770f3c3eac0caa333ebecd4435218.596x596x1.jpg",
+            "id": 2314163,
+            "image_url": "https://images.genius.com/8b7770f3c3eac0caa333ebecd4435218.596x596x1.jpg",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Juice WRLD & Marshmello",
+            "url": "https://genius.com/artists/Juice-wrld-and-marshmello"
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 6,
+          "api_path": "/songs/3554278",
+          "full_title": "Everyday by Logic & Marshmello",
+          "header_image_thumbnail_url": "https://images.genius.com/f522285ca9a1443a6cbff6912bad6a74.300x300x1.jpg",
+          "header_image_url": "https://images.genius.com/f522285ca9a1443a6cbff6912bad6a74.1000x1000x1.jpg",
+          "id": 3554278,
+          "lyrics_owner_id": 126836,
+          "lyrics_state": "complete",
+          "path": "/Logic-and-marshmello-everyday-lyrics",
+          "pyongs_count": 96,
+          "song_art_image_thumbnail_url": "https://images.genius.com/c021dc75bb454159fc1479531b3b0039.300x300x1.jpg",
+          "song_art_image_url": "https://images.genius.com/c021dc75bb454159fc1479531b3b0039.1000x1000x1.jpg",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "hot": false,
+            "pageviews": 663989
+          },
+          "title": "Everyday",
+          "title_with_featured": "Everyday",
+          "url": "https://genius.com/Logic-and-marshmello-everyday-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/1406211",
+            "header_image_url": "https://images.genius.com/b387a3e918249ab4d9e63d99e14b0d22.1000x666x1.jpg",
+            "id": 1406211,
+            "image_url": "https://images.genius.com/811dbb9fa9d4aa4308d10f637ebdc8bf.500x500x1.jpg",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Logic & Marshmello",
+            "url": "https://genius.com/artists/Logic-and-marshmello"
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 11,
+          "api_path": "/songs/5214785",
+          "full_title": "Hate the Other Side by Juice WRLD & Marshmello (Ft. The Kid LAROI & Polo G)",
+          "header_image_thumbnail_url": "https://images.genius.com/8830989510e788cf0c95721ec7706871.300x300x1.png",
+          "header_image_url": "https://images.genius.com/8830989510e788cf0c95721ec7706871.1000x1000x1.png",
+          "id": 5214785,
+          "lyrics_owner_id": 7935517,
+          "lyrics_state": "complete",
+          "path": "/Juice-wrld-and-marshmello-hate-the-other-side-lyrics",
+          "pyongs_count": 73,
+          "song_art_image_thumbnail_url": "https://images.genius.com/8830989510e788cf0c95721ec7706871.300x300x1.png",
+          "song_art_image_url": "https://images.genius.com/8830989510e788cf0c95721ec7706871.1000x1000x1.png",
+          "stats": {
+            "unreviewed_annotations": 1,
+            "hot": false,
+            "pageviews": 491592
+          },
+          "title": "Hate the Other Side",
+          "title_with_featured": "Hate the Other Side (Ft. The Kid LAROI & Polo G)",
+          "url": "https://genius.com/Juice-wrld-and-marshmello-hate-the-other-side-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/2314163",
+            "header_image_url": "https://images.genius.com/8b7770f3c3eac0caa333ebecd4435218.596x596x1.jpg",
+            "id": 2314163,
+            "image_url": "https://images.genius.com/8b7770f3c3eac0caa333ebecd4435218.596x596x1.jpg",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Juice WRLD & Marshmello",
+            "url": "https://genius.com/artists/Juice-wrld-and-marshmello"
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 6,
+          "api_path": "/songs/3288835",
+          "full_title": "Danger by Migos & Marshmello",
+          "header_image_thumbnail_url": "https://images.genius.com/f585314b14d189ccdb51de543a6d57a0.300x300x1.jpg",
+          "header_image_url": "https://images.genius.com/f585314b14d189ccdb51de543a6d57a0.1000x1000x1.jpg",
+          "id": 3288835,
+          "lyrics_owner_id": 1710294,
+          "lyrics_state": "complete",
+          "path": "/Migos-and-marshmello-danger-lyrics",
+          "pyongs_count": 42,
+          "song_art_image_thumbnail_url": "https://images.genius.com/0977493ab10814948e212d78163e84ce.300x300x1.png",
+          "song_art_image_url": "https://images.genius.com/0977493ab10814948e212d78163e84ce.800x800x1.png",
+          "stats": {
+            "unreviewed_annotations": 2,
+            "hot": false,
+            "pageviews": 319410
+          },
+          "title": "Danger",
+          "title_with_featured": "Danger",
+          "url": "https://genius.com/Migos-and-marshmello-danger-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/1246499",
+            "header_image_url": "https://images.genius.com/7b17d11faaead31aa62162859e346b9c.960x960x1.jpg",
+            "id": 1246499,
+            "image_url": "https://images.genius.com/7b17d11faaead31aa62162859e346b9c.960x960x1.jpg",
+            "is_meme_verified": false,
+            "is_verified": false,
+            "name": "Migos & Marshmello",
+            "url": "https://genius.com/artists/Migos-and-marshmello"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -15,7 +15,7 @@ public class JacksonConfig {
 
     @Bean
     @Primary
-    public com.fasterxml.jackson.databind.ObjectMapper configureObjectMapper() {
+    public ObjectMapper configureObjectMapper() {
 
         ObjectMapper mapper = new ObjectMapper();
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
