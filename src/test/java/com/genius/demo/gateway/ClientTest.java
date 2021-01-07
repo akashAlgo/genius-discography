@@ -18,18 +18,20 @@ import static org.mockito.Mockito.when;
 
 @RestClientTest
 @AutoConfigureJson
-@AutoConfigureWireMock
+@AutoConfigureWireMock(port = 0)
 @Import({WebClientConfig.class, JacksonConfig.class})
 public abstract class ClientTest {
 
     @MockBean
     GeniusServiceConfig serviceConfig;
 
+    @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
     @Autowired
     protected WireMockServer wireMockServer;
 
     @BeforeEach
     void setup() {
+        wireMockServer.resetAll();
         when(serviceConfig.getUrl()).thenReturn("http://localhost:" + wireMockServer.port());
         when(serviceConfig.getTimeout()).thenReturn(Duration.ofSeconds(5));
     }

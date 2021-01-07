@@ -24,7 +24,7 @@ public class SongService {
 
     public List<String> getSongsByArtist(String searchString, boolean exactMatch, String token, Integer perPage, Integer page) throws SearchFailureException, SongClientFailureException {
 
-        var artistId = getArtistId(searchString, exactMatch, token);
+        var artistId = getMatchedArtistId(searchString, exactMatch, token);
 
         if (artistId.isPresent()) {
             return getSongsBy(artistId.get(), token, perPage, page);
@@ -33,7 +33,7 @@ public class SongService {
         }
     }
 
-    public Optional<String> getArtistId(String searchString, boolean exactMatch, String token) throws SearchFailureException {
+    public Optional<String> getMatchedArtistId(String searchString, boolean exactMatch, String token) throws SearchFailureException {
 
         var response = searchClient.getSearchResponse(searchString, token);
 
@@ -44,17 +44,23 @@ public class SongService {
             throw new SearchFailureException("Artist search failed");
         }
 
-        return response.getResponse().getHits().stream()
+        var primaryArtists = response.getResponse().getHits().stream()
                 .map(hit -> hit.getResult().getPrimaryArtist())
-                .filter(artist -> {
-                    if (exactMatch) {
-                        return artist.getName().equals(searchString);
-                    } else {
-                        return artist.getName().contains(searchString);
-                    }
-                })
-                .map(PrimaryArtist::getId)
+                .collect(Collectors.toList());
+
+        var matchedArtist = primaryArtists.stream()
+                .filter(artist -> artist.getName().equals(searchString))
                 .findFirst();
+
+        // If exact match doesn't work, then consider collabs
+        if (!exactMatch && matchedArtist.isEmpty()) {
+            matchedArtist = primaryArtists.stream()
+                    .filter(primaryArtist -> primaryArtist.getName().contains(searchString))
+                    .findFirst();
+        }
+
+        return matchedArtist
+                .map(PrimaryArtist::getId);
     }
 
     public List<String> getSongsBy(String artistId, String token, Integer perPage, Integer page) throws SongClientFailureException {

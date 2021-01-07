@@ -24,7 +24,8 @@ paths:
     get:
       tags:
         - song-controller
-      summary: List of Songs by the searched artist. Use exact match param to match the artist name exactly, and not include collabs.
+      summary: |
+      List of Songs by the searched artist. Use exact match param to match the artist name exactly, and not include collabs.
       parameters:
         - name: artist_name
           in: query
@@ -37,7 +38,7 @@ paths:
           required: true
           schema:
             type: string
-            example: Bearer token
+            example: Bearer a2344bbnnbcc
             description: Provide a valid genius token here in the Bearer format
         - name: exact_match
           in: query
@@ -45,6 +46,9 @@ paths:
           schema:
             default: false
             type: boolean
+            description: |
+            If false, it checks for exact match of the artist name first, if that's not found then considers search term as substring.
+            If true, only exact match is carried out.
         - name: limit
           in: query
           required: false
